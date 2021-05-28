@@ -1,0 +1,31 @@
+.notifiation-bar{
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px #EBEBEB;
+}
+.notification-text{
+    
+    font-style: normal;
+    font-weight: 600;
+    color: #0047AB;
+    
+}
+.header-color{
+    background: linear-gradient(44.42deg, #FFF1E1 28.4%, #FFFFFF 52.55%);
+}
+.header-text{
+    font-style: normal;
+font-weight: bold;
+
+
+color: #2B2D42;
+}
+.btn-style{
+    background: #0047AB;
+border-radius: 2px;
+border-color: #0047AB;
+}
+.coverage-style{
+    background: linear-gradient(208.56deg, #FFC03D -29.1%, #FFC107 64.78%);
+    color: #2B2D42;
+}
