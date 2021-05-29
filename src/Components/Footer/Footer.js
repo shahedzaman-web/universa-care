@@ -11,7 +11,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="">
-      <div className="row">
+      <div className="row g-0">
         <div className="col-md-4 col-sm-12 ps-5 pt-5 pe-5">
           <h2 className="orange-text bold">HEADQUARTERS</h2>
           <hr className="rectangle" />
@@ -22,7 +22,7 @@ const Footer = () => {
           <p>F: 8777999065</p>
           <img className="img-fluid logo-style" src={UClogo} alt="" srcSet="" />
         </div>
-        <div className="col-md-2 col-sm-5 pt-5 ps-4">
+        <div className="col-md-2 col-sm-4 pt-5 ps-4">
           <h2 className="orange-text bold">SERVICES</h2>
           <hr className="rectangle" />
           <p>
@@ -46,7 +46,7 @@ const Footer = () => {
             Specialized Care
           </p>
         </div>
-        <div className="col-md-2 col-sm-5 ps-4 pt-5">
+        <div className="col-md-2 col-sm-4 ps-4 pt-5">
           <h2 className="orange-text bold">COMPANY</h2>
           <hr className="rectangle" />
           <p>
@@ -74,7 +74,7 @@ const Footer = () => {
             FAQ
           </p>
         </div>
-        <div className="col-md-3 col-sm-12  pt-5">
+        <div className="col-md-3 col-sm-12  pt-5 px-5">
           <p className="sign-up">Sign up to receive the latest articles</p>
           <div className="py-3">
             <input
@@ -86,8 +86,8 @@ const Footer = () => {
 
           <button className="all-btn px-4 py-2">Submit</button>
           <div className="d-flex py-3">
-            <img className="img-fluid" src={ChapFoot} alt="" srcSet="" />
-            <img src={MWBE} alt="" srcSet="" />
+            <img className="img-fluid ps-4" src={ChapFoot} alt="" srcSet="" />
+            <img className="px-4" src={MWBE} alt="" srcSet="" />
           </div>
           <div className="d-flex">
             <p>
@@ -101,9 +101,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="w-100" style={{ border: "1px solid #C4C4C4" }} />
+        <div className="g-0">
+          <hr className="w-100" style={{ border: "1px solid #C4C4C4" }} />
+        </div>
       </div>
-      <footer className="px-4 my-3 footer-text">
+      <footer className="ps-5 my-3 footer-text">
         Copyright 2020 <span className="orange-text bold"> Universacare</span> -
         All right reserved.
       </footer>

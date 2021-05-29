@@ -41,7 +41,7 @@ const Review = () => {
           </p>
         </div>
         <div className="col-md-8">
-          <div className="row">
+          <div className="row g-0">
             <Splide
               options={{
                 type: "slide",

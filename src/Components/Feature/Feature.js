@@ -38,15 +38,15 @@ const Feature = () => {
   ];
   return (
     <div className="feature-body py-3">
-      <h2 className="feature-title text-center pt-5">
+      <h2 className="feature-title text-center py-5">
         How We Find <span className="feature-color">Best Careviger</span> For
         You
       </h2>
-      <div className="row px-1">
+      <div className="row g-0 overflow-hidden">
         {featureData.map((item) => (
           <div
-            className="col-md-3 col-sm-11 text-center feature-list "
-            key={item.Title}
+            className="px-1 col-md-3 col-sm-11 text-center feature-list container"
+            key={item.id}
           >
             <div className="container">
               <img className="logos-img img-fluid" src={item.image} alt="" />
@@ -58,11 +58,13 @@ const Feature = () => {
                   srcSet=""
                 />
               </div>
-              <h2 className="pt-5">{item.Title}</h2>
-              <p className="px-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                eget augue nec massa volutpat aliquam fringilla non.
-              </p>
+              <div className="container pt-5 ">
+                <h3 className="bold">{item.Title}</h3>
+                <p className="px-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  eget augue nec massa volutpat aliquam fringilla non.
+                </p>
+              </div>
             </div>
           </div>
         ))}
