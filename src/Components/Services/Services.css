@@ -1,7 +1,10 @@
 
 .border-bottom{
-    border: 2.5px solid #FF8B08 ;
+    
+    border: 2.5px solid #FFC03D ;
+    background-color: #FFC03D;
     width: 161px;
+    opacity: 1;
 }
 .text-color{
     color: #2B2D42;

@@ -19,7 +19,16 @@ font-weight: bold;
 color: #2B2D42;
 
 }
-
+.header-part{
+    display:flex;
+  
+}
+@media only screen and (max-width: 600px) {
+    .header-part{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+}
 .btn-style{
     background: #0047AB;
 border-radius: 2px;

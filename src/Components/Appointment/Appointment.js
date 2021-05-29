@@ -3,9 +3,9 @@ import "./Appointment.css";
 import HealthCare from "./../../assets/healthcare.svg";
 const Appointment = () => {
   return (
-    <div className="appointment-body">
+    <div className="appointment-body ">
       <div className="row">
-        <div className="col-md-8 col-sm-12 p-5">
+        <div className="col-md-7 col-sm-12 p-5">
           <h1 className="text-white pb-4">
             WE DO WHATEVER IT MAKES TO BRING YOU PEACE OF MIND
           </h1>
@@ -14,7 +14,7 @@ const Appointment = () => {
           </button>
         </div>
         <div className="col-md-4 col-sm-12 mt-2 text-center">
-          <img className="mt-2" src={HealthCare} alt="" srcset="" />
+          <img className="mt-2" src={HealthCare} alt="" srcSet="" />
         </div>
       </div>
     </div>

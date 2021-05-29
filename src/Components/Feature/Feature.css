@@ -7,3 +7,33 @@
 .feature-color{
     color: #FF8400;
 }
+.feature-list{
+    position: relative;
+   
+    z-index:1
+}
+.dot-img-start{
+    position: absolute;
+  left: 160px;
+  top: 5px;
+  z-index: -1;
+}
+.dot-img-end{
+    position: absolute;
+    left:160px;
+    top: 50px;
+    z-index: -1;
+}
+.logs-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+@media only screen and (max-width: 600px) {
+    .dotImg-responsive{
+        display: none
+    }  
+          
+    
+}

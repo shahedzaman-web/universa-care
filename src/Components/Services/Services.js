@@ -44,8 +44,8 @@ const Services = () => {
   return (
     <div className="mt-5">
       <div className="row">
-        <div className="col-md-4 ps-4 text-color mt-5 col-sm-12">
-          <p className="h2">
+        <div className="col-md-4 ps-5 text-color mt-5 col-sm-12 ">
+          <p className="h3">
             Your peace of mind is
             <br />
             <b> our number one priority.</b>
@@ -73,12 +73,12 @@ const Services = () => {
           >
             {features.map((item) => (
               <SplideSlide key={item.Title} className="px-1">
-                <div className="border-end border-start px-4">
+                <div className="border-end border-start px-2">
                   <div className="text-center">
                     <img src={item.image} alt="img1" />
                   </div>
 
-                  <b className="h3 my-5">{item.Title}</b>
+                  <b className="h3 py-5">{item.Title}</b>
                   <p>
                     4x higher coverage limit than traditional policies for
                     computers and home office equipment.
@@ -88,11 +88,11 @@ const Services = () => {
             ))}
           </Splide>
         </div>
-        <div className="col-md-4 col-sm-12 my-5 text-center">
-          <img src={featurePhone} alt="" srcset="" />
+        <div className="col-md-3 col-sm-12 py-5 text-center">
+          <img src={featurePhone} alt="" srcSet="" />
           <h2>Do you need support?</h2>
-          <h5 className="mt-3 mb-5">We glad to help!</h5>
-          <button className="btn btn-primary px-4">CONTACT US</button>
+          <h5 className="pt-3 pb-5">We glad to help!</h5>
+          <button className="all-btn py-2 px-2">CONTACT US</button>
         </div>
       </div>
     </div>

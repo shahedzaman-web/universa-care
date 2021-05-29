@@ -2,3 +2,29 @@
     left: -8px;
     position: relative;
 }
+.all-btn{
+    font-weight: 800;
+  
+color: #FFFFFF;
+
+background-color: #0047AB;
+    border: 1px solid #0047AB;
+}
+.orange-text{
+    color: #FF8400;
+}
+.bold{
+    font-weight:800;
+}
+.rectangle{
+    border: 2.5px solid #FF8400;
+    background-color: #FF8400;
+    width: 31px;
+    opacity:1;
+}
+.sign-up{
+    color: #5F6377;
+}
+.footer-text{
+    color: #2B2D42;
+}
