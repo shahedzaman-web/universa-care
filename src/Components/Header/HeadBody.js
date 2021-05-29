@@ -8,11 +8,14 @@ const HeadBody = () => {
       <div className="header-color">
         <div className="row">
           <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center ps-5">
-            <p className="header-text h1">
+            <h1 className=" header-text">
               The Future of Health Care is Home Care
+            </h1>
+            <p className="header-text h3 py-3">
+              Over a Decade of Trusted Care.
             </p>
-            <p className="h3">Over a Decade of Trusted Care.</p>
-            <button className="btn btn-primary text-white px-5 h2">
+
+            <button className="btn btn-primary text-white p-3 px-5 h2">
               REQUEST AN APPOINTMENT
             </button>
           </div>
