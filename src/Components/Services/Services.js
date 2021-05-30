@@ -74,14 +74,14 @@ const Services = () => {
             hasSliderWrapper
           >
             {features.map((item) => (
-              <SplideSlide key={item.Title} className="">
+              <SplideSlide key={item.Title} className="px-1">
                 <div className="border-end border-start">
                   <div className="text-center">
                     <img src={item.image} alt="img1" />
                   </div>
 
-                  <b className="h3 py-5">{item.Title}</b>
-                  <p>
+                  <p className="h3 py-5 bold">{item.Title}</p>
+                  <p className="px-1">
                     4x higher coverage limit than traditional policies for
                     computers and home office equipment.
                   </p>
