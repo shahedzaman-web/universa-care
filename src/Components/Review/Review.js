@@ -23,7 +23,7 @@ const Review = () => {
   ];
   return (
     <div className="review-body py-5">
-      <div className="row">
+      <div className="row g-0">
         <div className="col-md-3 col-sm-12 d-flex flex-column justify-content-center">
           <div className="ps-5  px-5">
             <h1>
@@ -51,6 +51,7 @@ const Review = () => {
                 breakpoints: {
                   640: {
                     perPage: 1,
+                    gap: "2rem",
                   },
                 },
                 pagination: false,
@@ -64,44 +65,41 @@ const Review = () => {
             >
               {reviewData.map((item) => (
                 <SplideSlide
-                  className="col-md-4 col-sm-8"
+                  className="col-md-4 col-sm-8 shadow-sm bg-white px-2"
                   key={item.Review}
-                  className="shadow-sm bg-white "
                 >
-                  <div>
-                    <div className="p-3">
-                      <h3 className="h3 my-3 bold">{item.Name}</h3>
-                      <div>
-                        <FontAwesomeIcon
-                          className="me-2 text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="me-2 text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="me-2 text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="me-2 text-warning"
-                          icon={faStar}
-                        />
-                        <FontAwesomeIcon
-                          className="me-2 text-warning"
-                          icon={faStar}
-                        />
-                      </div>
-                      <p className="p-2">{item.Review}</p>
+                  <div className="m-3">
+                    <h3 className="h3 my-3 bold">{item.Name}</h3>
+                    <div>
+                      <FontAwesomeIcon
+                        className="me-2 text-warning"
+                        icon={faStar}
+                      />
+                      <FontAwesomeIcon
+                        className="me-2 text-warning"
+                        icon={faStar}
+                      />
+                      <FontAwesomeIcon
+                        className="me-2 text-warning"
+                        icon={faStar}
+                      />
+                      <FontAwesomeIcon
+                        className="me-2 text-warning"
+                        icon={faStar}
+                      />
+                      <FontAwesomeIcon
+                        className="me-2 text-warning"
+                        icon={faStar}
+                      />
                     </div>
+                    <p className="p-2">{item.Review}</p>
                   </div>
                 </SplideSlide>
               ))}
             </Splide>
           </div>
-          <div className="col-md-2">
-            <button className="btn text-primary ps-5">
+          <div className="col-md-3">
+            <button className="btn text-primary bold">
               See All Review
               <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
             </button>

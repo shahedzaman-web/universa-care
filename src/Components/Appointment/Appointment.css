@@ -1,9 +1,20 @@
 .appointment-body{
     background: #395FA9;
+    position: relative;
+}
+.arrow-img{
+    position: absolute;
+    bottom: -35px;
+    right: 50px;
 }
 .appointment-button{
     background: #FFFFFF;
 border-radius: 2px;
 color: #0047AB !important;
     border: 1px solid #FFFFFF ;
+}
+@media only screen and (max-width: 600px) {
+.appointment-header{
+    text-align: center
+}
 }

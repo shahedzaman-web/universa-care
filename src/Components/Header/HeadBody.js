@@ -8,7 +8,7 @@ const HeadBody = () => {
       <div className="header-color">
         <div className="row header-part g-0">
           <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center ps-5">
-            <h1 className=" header-text">
+            <h1 className=" header-text pt-3">
               The Future of Health Care is Home Care
             </h1>
 

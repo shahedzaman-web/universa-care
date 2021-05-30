@@ -94,7 +94,7 @@ const Services = () => {
           <img src={featurePhone} alt="" srcSet="" />
           <h2>Do you need support?</h2>
           <h5 className="pt-3 pb-5">We glad to help!</h5>
-          <button className="all-btn py-2 px-2">CONTACT US</button>
+          <button className="all-btn py-2 px-4">CONTACT US</button>
         </div>
       </div>
     </div>

@@ -38,10 +38,10 @@ const Feature = () => {
   ];
   return (
     <div className="feature-body py-3">
-      <h2 className="feature-title text-center py-5">
+      <h1 className="feature-title text-center py-5 px-5">
         How We Find <span className="feature-color">Best Careviger</span> For
         You
-      </h2>
+      </h1>
       <div className="row g-0">
         {featureData.map((item) => (
           <div
@@ -61,8 +61,8 @@ const Feature = () => {
                 )}
               </div>
               <div className="container pt-5 ">
-                <h4 className="bold">{item.Title}</h4>
-                <p className="px-3">
+                <h3 className="bold">{item.Title}</h3>
+                <p className="px-5 ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                   eget augue nec massa volutpat aliquam fringilla non.
                 </p>

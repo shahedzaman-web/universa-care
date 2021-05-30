@@ -28,3 +28,23 @@ background-color: #0047AB;
 .footer-text{
     color: #2B2D42;
 }
+
+@media only screen and (max-width: 600px) {
+.follow-us-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.follow-us-text{
+    position: relative;
+    top: 8px;
+}
+.submit-btn{
+    display: flex;
+    flex-direction: row-reverse
+}
+.services{
+   width:48%;
+}
+}
