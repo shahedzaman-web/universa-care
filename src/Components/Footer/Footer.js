@@ -14,7 +14,9 @@ const Footer = () => {
       <div className="row g-0">
         <div className="col-md-3 col-sm-12 pt-5">
           <div className="p-3">
-            <h2 className="orange-text bold">HEADQUARTERS</h2>
+            <p className="orange-text bold h2">
+              <b>HEADQUARTERS</b>
+            </p>
             <hr className="rectangle" />
             <p>246-50 57th Drive</p>
             <p>Douglaston, NY 11362</p>
@@ -30,10 +32,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-md-5">
-          <div className="row g-0 p-3">
-            <div className="col-md-5 col-sm-3 pt-5 ">
+          <div className="row g-0 ">
+            <div className="col-md-6 col-sm-5 pt-5 ">
               <div className="ps-2">
-                <h2 className="orange-text bold">SERVICES</h2>
+                <p className="orange-text  h2">
+                  <b>SERVICES</b>
+                </p>
                 <hr className="rectangle" />
                 <p>
                   <img className="pe-2" src={Ellipse} alt="" srcSet="" />
@@ -57,9 +61,11 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-5 col-sm-3 pt-5">
+            <div className="col-md-6 col-sm-3 pt-5">
               <div className="ps-2">
-                <h2 className="orange-text bold">COMPANY</h2>
+                <p className="orange-text h2">
+                  <b>COMPANY</b>
+                </p>
                 <hr className="rectangle" />
                 <p>
                   <img className="pe-2" src={Ellipse} alt="" srcSet="" />
@@ -89,7 +95,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-12  pt-5">
+        <div className="col-md-4 col-sm-12  pt-5">
           <div className="px-5 pt-3">
             <p className="sign-up">Sign up to receive the latest articles</p>
             <div className="py-3">
