@@ -24,21 +24,23 @@ const Review = () => {
   return (
     <div className="review-body py-5">
       <div className="row">
-        <div className="col-md-3 col-sm-12 px-5 d-flex flex-column justify-content-center  ps-5">
-          <h1>
-            <b>5.0</b>
-          </h1>
-          <div>
-            <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
-            <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
-            <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
-            <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
-            <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
+        <div className="col-md-3 col-sm-12 d-flex flex-column justify-content-center">
+          <div className="ps-5  px-5">
+            <h1>
+              <b>5.0</b>
+            </h1>
+            <div>
+              <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
+              <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
+              <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
+              <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
+              <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
+            </div>
+            <p>
+              2,054 verified customers reviews by{" "}
+              <span className="bold">Google</span>.
+            </p>
           </div>
-          <p>
-            2,054 verified customers reviews by{" "}
-            <span className="bold">Google</span>.
-          </p>
         </div>
         <div className="col-md-8">
           <div className="row g-0">
@@ -62,41 +64,48 @@ const Review = () => {
             >
               {reviewData.map((item) => (
                 <SplideSlide
+                  className="col-md-4 col-sm-8"
                   key={item.Review}
-                  className="p-2 shadow-sm bg-white col-md-4 col-sm-8"
+                  className="shadow-sm bg-white "
                 >
-                  <h3 className="h3 my-3 bold">{item.Name}</h3>
                   <div>
-                    <FontAwesomeIcon
-                      className="me-2 text-warning"
-                      icon={faStar}
-                    />
-                    <FontAwesomeIcon
-                      className="me-2 text-warning"
-                      icon={faStar}
-                    />
-                    <FontAwesomeIcon
-                      className="me-2 text-warning"
-                      icon={faStar}
-                    />
-                    <FontAwesomeIcon
-                      className="me-2 text-warning"
-                      icon={faStar}
-                    />
-                    <FontAwesomeIcon
-                      className="me-2 text-warning"
-                      icon={faStar}
-                    />
+                    <div className="p-3">
+                      <h3 className="h3 my-3 bold">{item.Name}</h3>
+                      <div>
+                        <FontAwesomeIcon
+                          className="me-2 text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="me-2 text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="me-2 text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="me-2 text-warning"
+                          icon={faStar}
+                        />
+                        <FontAwesomeIcon
+                          className="me-2 text-warning"
+                          icon={faStar}
+                        />
+                      </div>
+                      <p className="p-2">{item.Review}</p>
+                    </div>
                   </div>
-                  <p>{item.Review}</p>
                 </SplideSlide>
               ))}
             </Splide>
           </div>
-          <button className="btn text-primary ps-5">
-            See All Review
-            <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
-          </button>
+          <div className="col-md-2">
+            <button className="btn text-primary ps-5">
+              See All Review
+              <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
+            </button>
+          </div>
         </div>
       </div>
     </div>

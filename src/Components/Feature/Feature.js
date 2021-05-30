@@ -42,24 +42,26 @@ const Feature = () => {
         How We Find <span className="feature-color">Best Careviger</span> For
         You
       </h2>
-      <div className="row g-0 overflow-hidden">
+      <div className="row g-0">
         {featureData.map((item) => (
           <div
-            className="px-1 col-md-3 col-sm-11 text-center feature-list container"
+            className=" col-md-3 col-sm-11 text-center feature-list"
             key={item.id}
           >
             <div className="container">
               <img className="logos-img img-fluid" src={item.image} alt="" />
               <div className="dotImg-responsive">
-                <img
-                  className={item.dotImgStyle}
-                  src={item.dotImg}
-                  alt=""
-                  srcSet=""
-                />
+                {item.id !== 4 && (
+                  <img
+                    className={item.dotImgStyle}
+                    src={item.dotImg}
+                    alt=""
+                    srcSet=""
+                  />
+                )}
               </div>
               <div className="container pt-5 ">
-                <h3 className="bold">{item.Title}</h3>
+                <h4 className="bold">{item.Title}</h4>
                 <p className="px-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                   eget augue nec massa volutpat aliquam fringilla non.

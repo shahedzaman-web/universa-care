@@ -43,19 +43,21 @@ const Services = () => {
   ];
   return (
     <div className="mt-5">
-      <div className="row">
-        <div className="col-md-4 ps-5 text-color mt-5 col-sm-12 ">
-          <p className="h3">
-            Your peace of mind is
-            <br />
-            <b> our number one priority.</b>
-          </p>
-          <hr className="border-bottom" />
-          <p>
-            UniversaCare offers a range of services for in-home care. We are
-            your partners in care, and work with you to come up with a plan of
-            action.{" "}
-          </p>
+      <div className="row g-0">
+        <div className="col-md-4 text-color mt-5 col-sm-12 ">
+          <div className="ps-5">
+            <p className="h3">
+              Your peace of mind is
+              <br />
+              <b> our number one priority.</b>
+            </p>
+            <hr className="border-bottom" />
+            <p>
+              UniversaCare offers a range of services for in-home care. We are
+              your partners in care, and work with you to come up with a plan of
+              action.{" "}
+            </p>
+          </div>
         </div>
         <div className="col-md-4 col-sm-12">
           <Splide
@@ -72,8 +74,8 @@ const Services = () => {
             hasSliderWrapper
           >
             {features.map((item) => (
-              <SplideSlide key={item.Title} className="px-1">
-                <div className="border-end border-start px-2">
+              <SplideSlide key={item.Title} className="">
+                <div className="border-end border-start">
                   <div className="text-center">
                     <img src={item.image} alt="img1" />
                   </div>

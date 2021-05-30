@@ -8,7 +8,7 @@ const Accreditation = () => {
       </div>
 
       <div className="col-md-7 cols-sm-12">
-        <div className="p-3">
+        <div className="py-3">
           <h3>
             <b>CHAP Accreditation and this line can be about this big</b>
           </h3>
