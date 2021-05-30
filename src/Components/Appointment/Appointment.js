@@ -1,6 +1,6 @@
 import React from "react";
 import "./Appointment.css";
-import Arrow from "./../../assets/Arrow.png";
+import UpArrow from "./../../assets/UpArrow.png";
 import HealthCare from "./../../assets/healthcare.svg";
 const Appointment = () => {
   return (
@@ -17,9 +17,9 @@ const Appointment = () => {
           </div>
         </div>
         <div className="col-md-4 col-sm-12 mt-2 text-center">
-          <img className="mt-2" src={HealthCare} alt="" srcSet="" />
+          <img className="mt-5 pt-2" src={HealthCare} alt="" srcSet="" />
         </div>
-        <img className="arrow-img img-fluid" src={Arrow} alt="" srcSet="" />
+        <img className="arrow-img" src={UpArrow} alt="" srcSet="" />
       </div>
     </div>
   );

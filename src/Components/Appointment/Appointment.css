@@ -4,8 +4,9 @@
 }
 .arrow-img{
     position: absolute;
-    bottom: -35px;
-    right: 50px;
+    width:5% !important;
+    bottom: -2rem;
+    right: 5rem;
 }
 .appointment-button{
     background: #FFFFFF;
@@ -16,5 +17,11 @@ color: #0047AB !important;
 @media only screen and (max-width: 600px) {
 .appointment-header{
     text-align: center
+}
+.arrow-img{
+    position: absolute;
+    width:10% !important;
+    bottom: -2rem;
+    right: 3rem;
 }
 }
