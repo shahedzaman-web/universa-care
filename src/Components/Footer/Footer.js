@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <div className="">
       <div className="row g-0">
-        <div className="col-md-4 col-sm-12 pt-5">
-          <div className="ps-5">
+        <div className="col-md-3 col-sm-12 pt-5">
+          <div className="p-3">
             <h2 className="orange-text bold">HEADQUARTERS</h2>
             <hr className="rectangle" />
             <p>246-50 57th Drive</p>
@@ -29,9 +29,9 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="row g-0">
-            <div className="col-md-5 col-sm-3 pt-5 services">
+        <div className="col-md-5">
+          <div className="row g-0 p-3">
+            <div className="col-md-5 col-sm-3 pt-5 ">
               <div className="ps-2">
                 <h2 className="orange-text bold">SERVICES</h2>
                 <hr className="rectangle" />
@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-5 col-sm-3 pt-5">
-              <div className="ps-4">
+              <div className="ps-2">
                 <h2 className="orange-text bold">COMPANY</h2>
                 <hr className="rectangle" />
                 <p>
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-md-3 col-sm-12  pt-5">
-          <div className="px-5">
+          <div className="px-5 pt-3">
             <p className="sign-up">Sign up to receive the latest articles</p>
             <div className="py-3">
               <input

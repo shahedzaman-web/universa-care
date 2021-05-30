@@ -30,6 +30,7 @@ background-color: #0047AB;
 }
 
 @media only screen and (max-width: 600px) {
+
 .follow-us-style{
     display: flex;
     justify-content: center;
@@ -44,7 +45,5 @@ background-color: #0047AB;
     display: flex;
     flex-direction: row-reverse
 }
-.services{
-   width:30%;
-}
+
 }

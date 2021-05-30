@@ -42,17 +42,17 @@ const Services = () => {
     },
   ];
   return (
-    <div className="mt-5">
+    <div className="mt-2">
       <div className="row g-0">
         <div className="col-md-4 text-color mt-5 col-sm-12 ">
           <div className="ps-5">
-            <p className="h3">
+            <h2>
               Your peace of mind is
               <br />
               <b> our number one priority.</b>
-            </p>
+            </h2>
             <hr className="border-bottom" />
-            <p>
+            <p className="h5">
               UniversaCare offers a range of services for in-home care. We are
               your partners in care, and work with you to come up with a plan of
               action.{" "}
@@ -80,7 +80,7 @@ const Services = () => {
                     <img src={item.image} alt="img1" />
                   </div>
 
-                  <p className="h3 py-5 bold">{item.Title}</p>
+                  <p className="h3 py-3 bold">{item.Title}</p>
                   <p className="px-1">
                     4x higher coverage limit than traditional policies for
                     computers and home office equipment.
@@ -91,9 +91,9 @@ const Services = () => {
           </Splide>
         </div>
         <div className="col-md-3 col-sm-12 py-5 text-center">
-          <img src={featurePhone} alt="" srcSet="" />
+          <img className="img-fluid " src={featurePhone} alt="" srcSet="" />
           <h2>Do you need support?</h2>
-          <h5 className="pt-3 pb-5">We glad to help!</h5>
+          <h5 className="py-2">We glad to help!</h5>
           <button className="all-btn py-2 px-4">CONTACT US</button>
         </div>
       </div>

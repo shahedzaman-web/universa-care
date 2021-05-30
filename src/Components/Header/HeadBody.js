@@ -25,7 +25,7 @@ const HeadBody = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-center align-items-center  pt-4 coverage-style">
+      <div className="d-flex justify-content-center align-items-center  py-3 coverage-style">
         <p className="bold">
           <FontAwesomeIcon className="me-2" icon={faMapMarkerAlt} />
           UNIVERSACARE AREAS OF COVERAGE
