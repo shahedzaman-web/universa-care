@@ -19,7 +19,7 @@ const Appointment = () => {
           </div>
         </div>
         <div className="col-md-4 col-sm-12 mt-2 text-center">
-          <img className="mt-5 pt-2" src={HealthCare} alt="" srcSet="" />
+          <img className="mt-5 pt-3" src={HealthCare} alt="" srcSet="" />
         </div>
         <img className="arrow-img" src={UpArrow} alt="" srcSet="" />
       </div>

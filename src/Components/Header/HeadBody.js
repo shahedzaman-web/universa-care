@@ -21,7 +21,7 @@ const HeadBody = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-            <img className="img-fluid" src={HeaderImg} alt="" srcSet="" />
+            <img className="img-fluid pt-3" src={HeaderImg} alt="" srcSet="" />
           </div>
         </div>
       </div>
