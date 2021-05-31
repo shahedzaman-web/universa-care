@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div>
       <div className="notifiation-bar pb-2">
-        <p className="notification-text  text-center pt-3">
+        <p className="notification-text  text-center py-3">
           <FontAwesomeIcon icon={faInfoCircle} /> READ OUR COVID-19 PRECAUTIONS
         </p>
       </div>
