@@ -22,23 +22,23 @@ const Review = () => {
     },
   ];
   return (
-    <div className="review-body py-5">
+    <div className="review-body py-3">
       <div className="row g-0">
         <div className="col-md-3 col-sm-12 d-flex flex-column justify-content-center">
           <div className="ps-5  px-5">
-            <h1>
+            <p className="h1">
               <b>5.0</b>
-            </h1>
-            <div>
+            </p>
+            <div className="py-3">
               <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
               <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
               <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
               <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
               <FontAwesomeIcon className="me-2 text-warning" icon={faStar} />
             </div>
-            <p>
-              2,054 verified customers reviews by{" "}
-              <span className="bold">Google</span>.
+            <p className="h6">
+              2,054 verified customers reviews by
+              <b>Google</b>.
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@ const Review = () => {
                         icon={faStar}
                       />
                     </div>
-                    <p className="p-2">{item.Review}</p>
+                    <p className="p-2 h6">{item.Review}</p>
                   </div>
                 </SplideSlide>
               ))}

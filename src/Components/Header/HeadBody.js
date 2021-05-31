@@ -7,12 +7,12 @@ const HeadBody = () => {
     <div className="">
       <div className="header-color">
         <div className="row header-part g-0">
-          <div className="col-md-6 col-sm-12 d-flex flex-column py-5 ps-5">
-            <p className=" header-text pt-3 h2">
+          <div className="col-md-6 col-sm-12 d-flex flex-column py-4 ps-5">
+            <p className=" header-text pt-3 h1">
               The Future of Health Care is Home Care
             </p>
 
-            <p className="h3 header-text  py-3">
+            <p className="h4 header-text  py-3">
               Over a Decade of Trusted Care.
             </p>
 
@@ -25,7 +25,7 @@ const HeadBody = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-center align-items-center  pt-3 pb-3 coverage-style ">
+      <div className="d-flex justify-content-center align-items-center py-2 coverage-style ">
         <p className="bold">
           <FontAwesomeIcon className="me-2" icon={faMapMarkerAlt} />
           UNIVERSACARE AREAS OF COVERAGE

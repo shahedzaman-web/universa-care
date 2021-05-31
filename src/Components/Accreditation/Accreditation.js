@@ -9,13 +9,13 @@ const Accreditation = () => {
 
       <div className="col-md-7 cols-sm-12">
         <div className="p-3">
-          <h4 className="bold px-3">
-            CHAP Accreditation and this line can be about this big
-          </h4>
-          <h5 className=" px-3">
+          <p className="bold p-3 h4">
+            <b> CHAP Accreditation and this line can be about this big</b>
+          </p>
+          <p className=" px-3 h6">
             UniversaCare, LLC will provide the following home health care
             programs at flexible schedules and cost-friendly service rates.
-          </h5>
+          </p>
         </div>
       </div>
     </div>
